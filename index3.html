@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il mondo del Padel</title>
+    <link rel="stylesheet" href="style3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<script>
+    function showSection(id) {
+        document.querySelectorAll('.page').forEach(section => {
+            section.classList.remove('active');
+        });
+        document.getElementById(id).classList.add('active');
+    }
+
+
+</script>
+
+<body>
+    <header>
+        <p>IL MONDO DEL PADEL</p>
+        <div class="buttons2">
+            <!--<button onclick="location.href='index3.html'">HOME</button>
+            <button onclick="location.href='storia.html'">STORIA</button>
+            <button onclick="location.href='circuito.html'">CIRCUITO</button>
+            <button onclick="location.href='top10.html'">TOP 10</button>
+            <button onclick="location.href='gallery.html'">GALLERY</button>-->
+            <button onclick="showSection('home')">HOME</button>
+            <button onclick="showSection('storia')">STORIA</button>
+            <button onclick="showSection('circuito')">CIRCUITO</button>
+            <button onclick="showSection('top10')">TOP 10</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sezione 1 -->
+        <section id="home" class="page active">
+            <div class="image-container">
+                <!--<img src="img/SFONDO1.PNG" alt="Immagine Centrale">-->
+                <div class="overlay">
+                    <div class="text-box">
+                        <h1>IL MONDO DEL PADEL </h1>
+                        <h2>DALLA NASCITA AL CIRCUITO PREMIER PADEL</h2>
+                        <h6>
+                            UN VIAGGIO NEL NUOVO SPORT <br>
+                            CHE STA CONQUISTANDO IL MONDO </h6>
+                    
+                        </div>
+                    </div>
+
+                    <div class="cards-container">
+                        <div class="card" onclick="showSection('storia')">
+
+                            <h3> <span class="number">01</span> ENRIQUE CORCUERA</h3>
+
+                            <p>
+                                Dalle origini al boom Globale
+                                <br>
+                            </p>
+
+                            <button onclick="showSection('storia')">Vai alla Storia ></button>
+                        </div>
+
+                        <div class="card" onclick="showSection('circuito')">
+
+                            <h3><span class="number">02</span> CIRCUITO PREMIER</h3>
+
+                            <p>
+                                Premier Padel e tappe prinicipali
+                            </p>
+
+                            <button onclick="showSection('circuito')">Vai al Circuito ></button>
+                        </div>
+
+                        <div class="card" onclick="showSection('top10')">
+
+                            <h3><span class="number">03</span> TOP 10 PLAYER</h3>
+
+                            <p>
+                                I migliori giocatori del momento
+                            </p>
+
+                            <button onclick="showSection('top10')">Vai Alla Classifica ></button>
+                        </div>
+                    </div>
+                    <div class="img-down">
+                        <img src="img/SFONDO2.jpeg" alt="Immagine Centrale">
+                        <h5>IL PADEL, la nuova passione globale</h5><br>
+
+                    </div>
+                    <div class="text-down-right">
+                        <p>Negli ultimi anni, il padel ha conquistato
+                            <br>
+                            milioni di appassionati in tutto il mondo,
+                            <br>
+                            diventando uno degli sport più praticati.
+                            <br>
+                            La sua semplicità, l’aspetto sociale e i numerosi
+                            <br>
+                            benefici lo rendono ideale per persone di ogni età
+                            <br>
+                            e livello di forma fisica.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="storia" class="page">
+            <!-- BLOCCO 1969 -->
+            <div id="storiaMain" class="timeline-item">
+
+                <!-- COLONNA SINISTRA -->
+                <div class="timeline-left">
+                    <span class="year">1969</span>
+                    <span class="dot"></span>
+                    <span class="country">MESSICO</span>
+                    <img src="img/enrique.png" alt="Enrique Corcuera">
+                </div>
+
+                <!-- CONTENUTO DESTRO -->
+                <div class="timeline-content">
+                    <h2>ENRIQUE CORCUERA</h2>
+
+                    <div class="content-top">
+
+                        <p>
+                            Il padel fu inventato nel 1969 ad Acapulco, in Messico,
+                            da Enrique Corcuera, <br>
+                            che ideò uno sport unico nel suo genere, che si distingue per l’uso <br>
+                             di un campo rettangolare circondato da pareti.
+                            <br><br>
+                            Corcuera creò il primo campo da padel sfruttando uno spazio
+                            delimitato da mura domestiche, <br>
+                             dando così vita a un gioco completamente nuovo. <br>
+                             Il Padel ha visto una rapida ascesa globale,iniziando come gioco "da
+                            cortile" in Messico, <br>
+                            fino a raggiungere sempre più popolarità a livello mondiale.
+
+                        </p>
+                    </div>
+
+                    <div class="content-images">
+                        <img src="img/Enrique-Corcuera.jpg" alt="Giocatore storico">
+                        <img src="img/origenes-del-Padel.jpg" alt="Primo campo da padel">
+                    </div>
+                </div>
+            </div>
+
+            <!-- BLOCCO 1990 -->
+            <div class="timeline-item">
+                <div class="timeline-left">
+                    <span class="year">1990</span>
+                    <span class="dot"></span>
+                    <span class="country">SPAGNA</span>
+                    <img src="img/DIFFU SPAGNA.png" alt="Storia Padel">
+                </div>
+
+                <div class="timeline-content">
+                    <!-- contenuto successivo -->
+                    <h2>PRIME DIFFUSIONI IN SPAGNA</h2>
+                    <div class="content-top">
+
+                        <p>
+                            La svolta decisiva per il padel arrivò quando il principe Alfonso di Hohenlohe <br>
+                            lo scoprì in Messico.
+                            Riconoscendo il suo potenziale, decise di introdurlo in Spagna. <br>
+                             I primi campi di padel furono quindi installati
+                            nel prestigioso Marbella Club Hotel, <br> 
+                            diffondendo il gioco tra l'elite spagnola.
+                            <br><br>
+                            Negli anni 80, il padel iniziò a guadagnare popolarità,
+                            con la nascita dei primi tornei ufficiali. <br>
+                            Il 1992 fu un anno decisivo,con la prima Coppa el
+                            mondo di Padel in Spagna: <br>
+                            un evento che senza dubbio rafforzò la sua rilevanza nazionale.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="arrow">
+                    <h2>DOVE E' NATO IL PADEL</h2>
+
+                    <!-- SPAGNA -->
+                    <div class="expansion-item">
+                        <div class="expansion-img">
+                            <img src="img/spagna.png" alt="Bandiera Argentina">
+                        </div>
+
+                        <div class="expansion-content">
+                            <h3>ESPANSIONE IN SPAGNA</h3>
+                            <p>
+                                Il padel ha iniziato la sua vera avventura in spagna, per poi esplorare il mondo,
+                                conquistando il cuore di molti. Esaminiamo le fasi chiave della sua evoluzione:
+                                la sua espansione in Argentina e l'arrivop in Italia.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- ARGENTINA -->
+                    <div class="expansion-item">
+                        <div class="expansion-img">
+                            <img src="img/argentina.png" alt="Bandiera Argentina">
+                        </div>
+
+                        <div class="expansion-content">
+                            <h3>ESPANSIONE IN ARGENTINA</h3>
+                            <p>
+                                L’Argentina ha ricoperto un ruolo decisivo nella diffusione del
+                                padel in America Latina. Fin dalla sua prima introduzione nel
+                                paese, il gioco catturò rapidamente l’interesse degli argentini.
+                                La loro passione ha dato vita a molti campi e leghe locali,
+                                rendendo l’Argentina un punto di riferimento per il padel.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- ITALIA -->
+                    <div class="expansion-item">
+                        <div class="expansion-img">
+                            <img src="img/ita.png" alt="Bandiera Italia">
+                        </div>
+
+                        <div class="expansion-content">
+                            <h3>ARRIVO IN ITALIA</h3>
+                            <p>
+                                Il padel ha fatto il suo debutto in Italia nel 1991, con la nascita
+                                della Federazione Italiana Gioco Padel. Il primo campo fu aperto
+                                a Costabissara, Vicenza. Da allora, la sua popolarità ha conosciuto
+                                un’esplosione, con oltre 1200 campi da padel nel 2020.
+                            </p>
+                            <p>
+                                Al 2022, il numero di strutture è salito a 2053, con 5201 campi
+                                disponibili. Città come Roma, Milano, Firenze, Napoli, Torino e
+                                Palermo hanno visto un aumento significativo dei giocatori,
+                                superando i 500.000.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <!-- COLONNA SINISTRA -->
+                <div class="timeline-left">
+                    <span class="year">2022</span>
+                    <span class="dot"></span>
+                    <span class="country">ITALIA</span>
+                    <img src="img/logo fitp.png" alt="FITP">
+                </div>
+
+                <!-- CONTENUTO DESTRO -->
+                <div class="timeline-content">
+                    <h2>Federazione Tennis e Padel</h2>
+
+                    <div class="content-top">
+
+                        <p>
+                            La Federazione Internazionale di Padel (FIP) è l'organo di governo mondiale del Padel, <br> 
+                            la cui missione è:
+                            Promuovere la crescita e lo sviluppo di Padel a tutti i livelli ed età, <br>
+                            dalla base al professionista.
+                            <br>
+                            Governare lo sport affiliando le federazioni membri nazionali e le associazioni regionali
+                            <br><br>
+                            Fai in modo che il padel diventi uno sport olimpico e fai parte dei Giochi Olimpici, <br>
+                            la più alta onorificenza per qualsiasi sport FIP gestisce un calendario internazionale <br>
+                            che comprende i suoi due circuiti (Premier Padel & Cupra FIP Tour), così come le sue
+                            competizioni <br> 
+                            a squadre (Campionati del Mondo ed eventi continentali) per giocatori giovani e senior.
+                            <br><br>
+                            A partire da gennaio 2024, FIP governa anche un'unica classifica internazionale unificata <br>
+                            ufficiale per giocatori professionisti maschi e femmine, contando i punti del torneo
+                            raggiunti <br>
+                            nei suoi due circuiti: Premier Padel e Cupra FIP Tour.
+
+                        </p>
+                    </div>
+
+                    <div class="content-images2">
+                        <img src="img/ftp foto.png" alt="giocatori">
+                        <div style="width: 100%;text-align: center;">
+                            <button class="cta-button" id="goUp">↑ Torna su</button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    // Scorrimento dolce verso l'inizio della storia'
+                    document.getElementById("goUp").addEventListener("click", () => {
+                        console.log("SONO QUI")
+                        document.getElementById("storiaMain").scrollIntoView({ behavior: "smooth" });
+                    });
+                </script>
+
+
+        </section> <!--CHIUDO SECTION STORIA-->
+
+        <section id="circuito" class="page">
+            <div class="circuito-img">
+                <div class="circuito-img-text">
+
+                    <h1>Il tour uficiale del Padel profesionistico a livello mondiale, <br>
+                        dove i migliori giocatori si sfidano nelle location più iconiche
+                        del pianeta</h1>
+                </div>
+            </div>
+            <div class="text-image-circuito1">
+                <div class="text-circuito1">
+                    <h1>IL CIRCUITO MONDIALE DEL PADEL</h1>
+                    <p>
+                        Premier Padel è il pricipale tour di padel professionale ufficiale in tutto il,
+                        mondo,fondato da Qatar SportsInvestments(QSI) insieme alla
+                        International Padel Federation (FIP) e alla Professional Padel Association (PPA).<br><br>
+                        Lanciato nel 2022, sostenuto dalla Professional Padel Association (PPA),
+                        oltre 500 giocatori provenienti da tutto il mondo hanno gareggiato nei tornei Premier Padel
+                        nel suo primo anno e hanno giocato in alcuni dei luoghi più iconici dello sport, tra
+                        cui lo Stade Roland-Garros di Parigi.<br><br>
+                        Oltre 110 importanti giocatrici professioniste si sono unite a Premier Padel
+                        nel marzo 2023 attraverso l'International Professional Players Association (IPPA).
+                    </p>
+                </div>
+
+                <div class="image-circuito1">
+                    <img src="img/FONDATORE.png" alt="Padel">
+                </div>
+            </div>
+            <div class="text-image-circuito1">
+                <div class="image-circuito2">
+                    <img src="img/img_assemby2025.webp" alt="Padel">
+                </div>
+
+                <div class="text-circuito2">
+
+                    <p>
+                        Nell'agosto 2023, è stato annunciato che QSI avrebbe acquisito World Padel Tour (WPT) 
+                        per creare un unico tour di padel professionale globale - chiamato Premier Padel - governato da FIP.
+                         Dal 2025, Premier Padel include 24 tornei in 16 paesi mentre il tour continua a far crescere 
+                         lo sport in nuovi territori e in ogni dimensione. Come marchio globale, Premier Padel cattura
+                          anche l'essenza dinamica e lo spirito del padel, con lo sport che si imbarca in una nuova 
+                          entusiasmante alba su scala globale guidata dal nuovo tour globale unificato
+                    </p>
+                </div>
+
+
+            </div>
+            <h1 class="title1">UN TOUR MONDIALE,UN' ECCELLENZA ORGANIZZATIVA</h1>
+            <div class="circuito3">
+                <div class="card-circuito3">
+                    <div class="header-circuito3">
+                        <img src="img/trophy.png">
+                        <h2>EVENTI DI PRESTIGIO</h2>
+                    </div>
+                    <p>Tappe emozionanti nelle città
+                       più iconiche come Doha, Roma,
+                       Parigi, Madrid, Buenos Aires.</p>
+                </div>
+
+                <div class="card-circuito3">
+                    <div class="header-circuito3">
+                        <img src="img/location.png">
+                        <h2>LOCATION ICONICHE</h2>
+                    </div>
+                    <p>I tornei si svolgono in arene spettacolari e in location internazionali, 
+                        portando il padel sui palcoscenici più prestigiosi del mondo </p>
+                </div>
+
+                <div class="card-circuito3">
+                    <div class="header-circuito3">
+                        <img src="img/people.png">
+                        <h2>ESPERIENZA INCREDIBILE</h2>
+                    </div>
+                    <p>Atmosfera mozzafiato, organizzazione
+                       incredibile e un pubblico appassionato.
+                       Ogni evento è un’esperienza unica</p>
+                </div>
+            </div>
+            <div>
+                <img class="bandiere" src="img/BANDIERE.png" alt="Padel">
+            </div>
+
+            <div class="text-image-circuito1">
+                <div class="text-circuito1">
+                    <h1>ORGANIZZAZIONE CIRCUITO</h1>
+                    <p>
+                        Il Qatar Airways Premier Padel Tour, il principale tour ufficiale di padel professionistico 
+                        prende il via con il Riyadh Season P1, nel 2025 prevede 24 tornei in 16 paesi, con novità 
+                        affascinanti come l'apprezzata tappa di Miami e un nuovo torneo a Cancun presso la Rafa Nadal Academy.  
+                        I tornei sono di tre categorie: i major, equivalenti agli Slam nel tennis, i P1 e i P2. <br><br>
+                        Per quanto riguarda i quattro Major, il primo si è giocato in Qatar (14-19 aprile). 
+                        Il BNL Italy Major Premier Padel è il secondo, al Foro Italico dal 9 al 15 giugno. 
+                        Gli ultimi due sono in programma in Francia (8-14 settembre), nell'impianto del Roland Garros, 
+                        e in Messico (24-30 novembre) ospiteranno i restanti tornei Major. <br><br>
+
+                        Da quest'anno, è cambiata la distribuzione dei punti validi per la classifica. 
+                        I major ne assegnano 2000 ai vincitori, i P1 ne danno 1000, i P2 600. 
+                        Aumentano i punti per il ranking FIP ai primi turni nei tornei P1 e P2 e per i turni di qualificazione.  
+                        La Federazione Internazionale Padel (FIP) ospiterà la prima edizione della FIP Intercontinental Cup 
+                        in agosto, l’equivalente della Ryder e della Laver Cup, prima della prevista pausa di metà stagione, 
+                        e la FIP World Cup Pairs in novembre che assegnerà 2.000 punti per il ranking FIP ai vincitori del torneo 
+                        e 1.200 ai finalisti.<br><br>
+                        A fine stagione sono in programma anche le Qatar Airways Premier Padel Finals torneranno a Barcellona 
+                        nel 2025 per la loro seconda edizione dall'8 al 14 dicembre,a cui prenderanno parte i primi 16 giocatori 
+                        classificati nella FIP Race, sia nelle competizioni maschili che in quelle femminili.
+                    </p>
+                </div>
+
+                <div class="image-circuito2">
+                    <img src="img/locandin3.png" alt="Padel">
+                </div>
+            </div>
+
+            <div class="text-image-circuito1">
+                <div class="image-circuito2">
+                    <img src="img/1.png" alt="Padel">
+                </div>
+
+                <div class="text-circuito2">
+                    <h1>PRINCIPALI SPONSOR E PARTNERSHIP</h1>
+                    <p>
+                        Premier Padel è il pricipale tour di padel professionale ufficiale in tutto il,
+                        mondo,fondato da Qatar SportsInvestments(QSI) insieme alla
+                        International Padel Federation (FIP) e alla Professional Padel Association (PPA).<br><br>
+                        Lanciato nel 2022, sostenuto dalla Professional Padel Association (PPA),
+                        oltre 500 giocatori provenienti da tutto il mondo hanno gareggiato nei torneiPremier Padel
+                        nel suo primo anno e hanno giocato in alcuni dei luoghi più iconici dello sport, tra
+                        cui lo Stade Roland-Garros di Parigi.
+                        Oltre 110 importanti giocatrici professioniste si sono unite a Premier Padel
+                        nel marzo 2023 attraverso l'International Professional Players Association (IPPA).
+                    </p>
+                </div>
+
+
+            </div>
+
+            <div style="width: 100%;text-align: center;">
+                <button class="cta-button" id="goUpCircuito">↑ Torna su</button>
+
+            </div>
+
+             <script>
+                    // Scorrimento dolce verso l'inizio della storia'
+                    document.getElementById("goUpCircuito").addEventListener("click", () => {
+                        console.log("SONO QUI")
+                        document.getElementById("circuito").scrollIntoView({ behavior: "smooth" });
+                    });
+                </script>
+
+
+        </section> <!--CHIUDO CIRCUITO-->
+
+        <section id="top10" class="page">
+            <div class="ranking">
+                <h1>TOP 10 GIOCATORI<br><span>MASCHILE</span></h1>
+
+                <div class="grid">
+                    <!-- CARD -->
+                    <div class="player-card" onclick="openPlayer(this)" data-name="AGUSTIN TAPIA">
+                        <div class="img-wrapper">
+                            <span class="rank">1°</span>
+                            <img src="img/tapia.png" alt="Agustin Tapia">
+                            <span class="name">AGUSTIN TAPIA</span>
+                        </div>
+
+                    </div>
+                    <div class="player-card" onclick="openPlayer(this)" data-name="ARTURO COELLO">
+                        <div class="img-wrapper">
+                            <span class="rank">1°</span>
+                            <img src="img/coello.png" alt="Arturo Coello">
+                            <span class="name">ARTURO COELLO</span>
+                        </div>
+
+                    </div>
+                    <div class="player-card" onclick="openPlayer(this)" data-name="ALEJANDRO GALAN">
+                        <div class="img-wrapper">
+                            <span class="rank">3°</span>
+                            <img src="img/galan.png" alt="Alejandro Galan">
+                            <span class="name">ALEJANDRO GALAN</span>
+                        </div>
+                    </div>
+                    <div class="player-card" onclick="openPlayer(this)" data-name="FEDERICO CHINGOTTO">
+                        <div class="img-wrapper" onclick="openPlayer(this)">
+                            <span class="rank">3°</span>
+                            <img src="img/CHINGOTTO.png" alt="Federico Chingotto">
+                            <span class="name">FEDERICO CHINGOTTO</span>
+                        </div>
+                    </div>
+                    <div class="player-card" onclick="openPlayer(this)" data-name="JUAN LEBRON">
+                        <div class="img-wrapper">
+                            <span class="rank">5°</span>
+                            <img src="img/LEBRON.png" alt="Juan Lebron">
+                            <span class="name">JUAN LEBRON</span>
+                        </div>
+                    </div>
+                    <div class="player-card" onclick="openPlayer(this)" data-name="FRANCO STUPACZUK">
+                        <div class="img-wrapper">
+                            <span class="rank">6°</span>
+                            <img src="img/STUPA.png" alt="Franco Stupaczuk">
+                            <span class="name">FRANCO STUPACZUK</span>
+                        </div>
+                    </div>
+
+                    <div class="player-card" onclick="openPlayer(this)" data-name="JORGE NIETO">
+                        <div class="img-wrapper">
+                            <span class="rank">7°</span>
+                            <img src="img/COKI.png" alt="Jorge Nieto">
+                            <span class="name">JORGE NIETO</span>
+                        </div>
+                    </div>
+
+                    <div class="player-card" onclick="openPlayer(this)" data-name="MIGUEL YANGUAS">
+                        <div class="img-wrapper">
+                            <span class="rank">8°</span>
+                            <img src="img/YANGUAS.png" alt="Miguel Yanguas">
+                            <span class="name">MIGUEL YANGUAS</span>
+                        </div>
+                    </div>
+
+                    <div class="player-card" onclick="openPlayer(this)" data-name="FRANCISCO NAVARRO">
+                        <div class="img-wrapper">
+                            <span class="rank">9°</span>
+                            <img src="img/PAQUITO.png" alt="Francisco Navarro">
+                            <span class="name">FRANCISCO NAVARRO</span>
+                        </div>
+                    </div>
+
+                    <div class="player-card" onclick="openPlayer(this)" data-name="LEANDRO AUSBURGER">
+                        <div class="img-wrapper">
+                            <span class="rank">10°</span>
+                            <img src="img/AUSBURGER.png" alt="Leandro Ausburger">
+                            <span class="name">LEANDRO AUSBURGER</span>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <h1 class="female">FEMMINILE</h1>
+
+                <div class="grid">
+
+
+                    <div class="player-card" onclick="openPlayerDonna(this)" data-name="GEMMA TRIAY">
+                        <div class="img-wrapper">
+                            <span class="rank">1°</span>
+                            <img src="img/GEMMA.png" alt="Gemma Triay">
+                            <span class="name">GEMMA TRIAY</span>
+                        </div>
+
+                    </div>
+
+                    <div class="player-card" onclick="openPlayerDonna(this)" data-name="DELFINA BREA">
+                        <div class="img-wrapper">
+                            <span class="rank">1°</span>
+                            <img src="img/DELFI.png" alt="Delfina Brea">
+                            <span class="name">DELFINA BREA</span>
+                        </div>
+
+                    </div>
+
+                    <div class="player-card" onclick="openPlayerDonna(this)" data-name="ARIANA SANCHEZ">
+                        <div class="img-wrapper">
+                            <span class="rank">3°</span>
+                            <img src="img/ARI.png" alt="Ariana Sanchez">
+                            <span class="name">ARIANA SANCHEZ</span>
+                        </div>
+
+                    </div>
+
+                    <div class="player-card" onclick="openPlayerDonna(this)" data-name="PAULA JOSEMARIA">
+                        <div class="img-wrapper">
+                            <span class="rank">3°</span>
+                            <img src="img/PAULA.png" alt="Paula Josemaria">
+                            <span class="name">PAULA JOSEMARIA</span>
+                        </div>
+
+                    </div>
+
+                    <div class="player-card" onclick="openPlayerDonna(this)" data-name="CLAUDIA FERNANDEZ">
+                        <div class="img-wrapper">
+                            <span class="rank">5°</span>
+                            <img src="img/CLAUDIA.png" alt="Claudia Fernandez">
+                            <span class="name">CLAUDIA FERNANDEZ</span>
+                        </div>
+
+                    </div>
+
+                    <div class="player-card" onclick="openPlayerDonna(this)" data-name="BEATRIZ GONZALEZ">
+                        <div class="img-wrapper">
+                            <span class="rank">6°</span>
+                            <img src="img/BEA.png" alt="Beatriz Gonzales">
+                            <span class="name">BEATRIZ GONZALES</span>
+                        </div>
+
+                    </div>
+
+                    <div class="player-card" onclick="openPlayerDonna(this)" data-name="SOFIA ARAUJO">
+                        <div class="img-wrapper">
+                            <span class="rank">7°</span>
+                            <img src="img/ARAUJO.png" alt="Sofia Araujo">
+                            <span class="name">SOFIA ARAUJO</span>
+                        </div>
+
+                    </div>
+
+                    <div class="player-card" onclick="openPlayerDonna(this)" data-name="ANDREA USTERO">
+                        <div class="img-wrapper">
+                            <span class="rank">8°</span>
+                            <img src="img/USTERO.png" alt="Andrea Ustero">
+                            <span class="name">ANDREA USTERO</span>
+                        </div>
+
+                    </div>
+
+                    <div class="player-card" onclick="openPlayerDonna(this)" data-name="MARTA ORTEGA">
+                        <div class="img-wrapper">
+                            <span class="rank">9°</span>
+                            <img src="img/ORTEGA.png" alt="Marta Ortega">
+                            <span class="name">MARTA ORTEGA</span>
+                        </div>
+
+                    </div>
+
+                    <div class="player-card" onclick="openPlayerDonna(this)" data-name="TAMARA ICARDO">
+                        <div class="img-wrapper">
+                            <span class="rank">10°</span>
+                            <img src="img/TAMARA.png" alt="Tamara Icardo">
+                            <span class="name">TAMARA ICARDO</span>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <script>
+
+                /*UOMINI PLAYERS*/
+
+                const players = [
+                    {
+                        name: "AGUSTIN TAPIA",
+                        rank: "1°",
+                        img: "img/tapia.png",
+                        nascita: "24/07/1999",
+                        origine: "Catamarca",
+                        posizione: "Sinistra",
+                        altezza: "1.79 cm",
+                        compagno: "Arturo Coello"
+                    },
+                    {
+                        name: "ARTURO COELLO",
+                        rank: "1°",
+                        img: "img/coello.png",
+                        nascita: "08/03/2002",
+                        origine: "Valladolid",
+                        posizione: "Destra",
+                        altezza: "1.90 cm",
+                        compagno: "Agustin Tapia"
+                    },
+                    {
+                        name: "ALEJANDRO GALAN",
+                        rank: "3°",
+                        img: "img/galan.png",
+                        nascita: "15/05/1996",
+                        origine: "Madrid",
+                        posizione: "Sinistra",
+                        altezza: "1.89 cm",
+                        compagno: "Federico Chingotto"
+                    },
+                    {
+                        name: "FEDERICO CHINGOTTO",
+                        rank: "3°",
+                        img: "img/CHINGOTTO.png",
+                        nascita: "13/04/1997",
+                        origine: "Buenos Aires",
+                        posizione: "Destra",
+                        altezza: "1.70 cm",
+                        compagno: "Alejandro Galan"
+                    },
+                    {
+                        name: "JUAN LEBRON",
+                        rank: "5°",
+                        img: "img/LEBRON.png",
+                        nascita: "31/01/1995",
+                        origine: "Puerto De Santa Maria",
+                        posizione: "Destra",
+                        altezza: "1.84 cm",
+                        compagno: "Leandro Ausburger"
+                    },
+                    {
+                        name: "FRANCO STUPACZUK",
+                        rank: "6°",
+                        img: "img/STUPA.png",
+                        nascita: "25/03/1996",
+                        origine: "Chaco",
+                        posizione: "Sinistra",
+                        altezza: "1.80 cm",
+                        compagno: "Miguel Yanguas"
+                    },
+                    {
+                        name: "JORGE NIETO",
+                        rank: "7°",
+                        img: "img/COKI.png",
+                        nascita: "18/12/1998",
+                        origine: "Madrid",
+                        posizione: "Sinistra",
+                        altezza: "1.75 cm",
+                        compagno: "Jon Sanz"
+                    },
+                    {
+                        name: "MIGUEL YANGUAS",
+                        rank: "7°",
+                        img: "img/YANGUAS.png",
+                        nascita: "18/03/2002",
+                        origine: "Malaga",
+                        posizione: "Destra",
+                        altezza: "1.89 cm",
+                        compagno: "Franco Stupaczuk"
+                    },
+                    {
+                        name: "FRANCISCO NAVARRO",
+                        rank: "9°",
+                        img: "img/PAQUITO.png",
+                        nascita: "10/02/1989",
+                        origine: "Siviglia",
+                        posizione: "Sinistra",
+                        altezza: "1.81 cm",
+                        compagno: "Francisco Guerrero"
+                    },
+                    {
+                        name: "LEANDRO AUSBURGER",
+                        rank: "10°",
+                        img: "img/AUSBURGER.png",
+                        nascita: "11/08/2004",
+                        origine: "Posadas Misiones",
+                        posizione: "Sinistra",
+                        altezza: "1.90 cm",
+                        compagno: "Juan Lebron"
+                    },
+                ];
+
+
+
+
+
+                let currentPlayerIndex = 0;
+                function openPlayerByIndex(index) {
+                    currentPlayerIndex = index;
+                    const player = players[index];
+                    // riempi i contenuti
+                    document.getElementById("detail-img").src = player.img;
+                    document.getElementById("detail-name").innerText = player.name;
+                    document.getElementById("detail-rank").innerText = player.rank;
+                    document.getElementById("detail-datanascita").innerText = player.nascita;
+                    document.getElementById("detail-origine").innerText = player.origine;
+                    document.getElementById("detail-posizione").innerText = player.posizione;
+                    document.getElementById("detail-altezza").innerText = player.altezza;
+                    document.getElementById("detail-compagno").innerText = player.compagno;
+
+                    // mostra solo la sezione dettaglio
+                    showSection('player-detail');
+                }
+
+
+                function changePlayer(direction) {
+                    currentPlayerIndex += direction;
+
+                    if (currentPlayerIndex < 0) {
+                        currentPlayerIndex = players.length - 1; // vai all’ultimo
+                    } else if (currentPlayerIndex >= players.length) {
+                        currentPlayerIndex = 0; // vai al primo
+                    }
+
+                    openPlayerByIndex(currentPlayerIndex);
+                }
+
+                function openPlayer(card) {
+                    // trova l’indice del giocatore cliccato
+                    const index = players.findIndex(p => p.name === card.dataset.name);
+                    if (index !== -1) {
+                        openPlayerByIndex(index);
+                    }
+                }
+
+                /*DONNE PLAYERS*/
+
+
+                const playersDonne = [
+                    {
+                        name: "GEMMA TRIAY",
+                        rank: "1°",
+                        img: "img/GEMMA.png",
+                        nascita: "28/06/1992",
+                        origine: "Mahòn",
+                        posizione: "Sinistra",
+                        altezza: "1.73 cm",
+                        compagno: "Delfina Brea"
+                    },
+                    {
+                        name: "DELFINA BREA",
+                        rank: "1°",
+                        img: "img/DELFI.png",
+                        nascita: "05/12/1999",
+                        origine: "Buenos Aires",
+                        posizione: "Destra",
+                        altezza: "1.70 cm",
+                        compagno: "Gemma Triay"
+                    },
+                    {
+                        name: "ARIANA SANCHEZ",
+                        rank: "3°",
+                        img: "img/ARI.png",
+                        nascita: "19/07/1997",
+                        origine: "Reus",
+                        posizione: "Sinistro",
+                        altezza: "1.65 cm",
+                        compagno: "Andrea Ustero"
+                    },
+                    {
+                        name: "PAULA JOSEMARIA",
+                        rank: "3°",
+                        img: "img/PAULA.png",
+                        nascita: "31/10/1996",
+                        origine: "Moraleja",
+                        posizione: "Destra",
+                        altezza: "1.60 cm",
+                        compagno: "Beatriz Gonzalez"
+                    },
+                    {
+                        name: "BEATRIZ GONZALEZ",
+                        rank: "5°",
+                        img: "img/BEA.png",
+                        nascita: "23/11/2001",
+                        origine: "Malaga",
+                        posizione: "Sinistra",
+                        altezza: "1.74 cm",
+                        compagno: "Paula Josemaria"
+                    },
+                    {
+                        name: "CLAUDIA FERNANDEZ",
+                        rank: "5°",
+                        img: "img/CLAUDIA.png",
+                        nascita: "28/02/2006",
+                        origine: "Madrid",
+                        posizione: "Destra",
+                        altezza: "1.64 cm",
+                        compagno: "Sofia Araujo"
+                    },
+                    {
+                        name: "SOFIA ARAUJO",
+                        rank: "7°",
+                        img: "img/ARAUJO.png",
+                        nascita: "30/11/1994",
+                        origine: "Lisbona",
+                        posizione: "Sinistra",
+                        altezza: "1.72 cm",
+                        compagno: "Claudia Fernandez"
+                    },
+                    {
+                        name: "ANDREA USTERO",
+                        rank: "8°",
+                        img: "img/USTERO.png",
+                        nascita: "12/05/2007",
+                        origine: "Barcellona",
+                        posizione: "Destra",
+                        altezza: "1.70 cm",
+                        compagno: "Ariana Sanchez"
+                    },
+                    {
+                        name: "MARTA ORTEGA",
+                        rank: "9°",
+                        img: "img/ORTEGA.png",
+                        nascita: "14/02/1997",
+                        origine: "Madrid",
+                        posizione: "Destra",
+                        altezza: "1.70 cm",
+                        compagno: "Martina Calvo"
+                    },
+                    {
+                        name: "TAMARA ICARDO",
+                        rank: "10°",
+                        img: "img/TAMARA.png",
+                        nascita: "10/10/1995",
+                        origine: "Valencia",
+                        posizione: "Sinistra",
+                        altezza: "1.78 cm",
+                        compagno: "Claudia Jensen"
+                    },
+                ];
+
+
+                let currentPlayerDonnaIndex = 0;
+                function openPlayerDonnaByIndex(index) {
+                    currentPlayerDonnaIndex = index;
+                    const player = playersDonne[index];
+                    // riempi i contenuti
+                    document.getElementById("detail-img-donna").src = player.img;
+                    document.getElementById("detail-name-donna").innerText = player.name;
+                    document.getElementById("detail-rank-donna").innerText = player.rank;
+                    document.getElementById("detail-datanascita-donna").innerText = player.nascita;
+                    document.getElementById("detail-origine-donna").innerText = player.origine;
+                    document.getElementById("detail-posizione-donna").innerText = player.posizione;
+                    document.getElementById("detail-altezza-donna").innerText = player.altezza;
+                    document.getElementById("detail-compagno-donna").innerText = player.compagno;
+
+                    // mostra solo la sezione dettaglio
+                    showSection('player-detail-donna');
+                }
+
+
+                function changePlayerDonna(direction) {
+                    currentPlayerDonnaIndex += direction;
+
+                    if (currentPlayerDonnaIndex < 0) {
+                        currentPlayerDonnaIndex = playersDonne.length - 1; // vai all’ultimo
+                    } else if (currentPlayerDonnaIndex >= playersDonne.length) {
+                        currentPlayerDonnaIndex = 0; // vai al primo
+                    }
+
+                    openPlayerDonnaByIndex(currentPlayerDonnaIndex);
+                }
+
+                function openPlayerDonna(card) {
+                    // trova l’indice del giocatore cliccato
+                    console.log("APRI-->" + card.dataset.name)
+                    const index = playersDonne.findIndex(p => p.name === card.dataset.name);
+                    console.log("APRI INDEX-->" + index)
+                    if (index !== -1) {
+                        openPlayerDonnaByIndex(index);
+                    }
+                }
+
+
+
+
+
+
+
+            </script>
+
+
+        </section> <!--CHIUDO LA SECTION TOP10-->
+
+        <section id="player-detail" class="page"> <!--SEZIONE DETTAGLIO UOMINI-->
+
+            <button onclick="showSection('top10')" class="back-btn">← Torna alla classifica</button>
+
+            <div class="detail-content">
+                <button class="nav-arrow" onclick="changePlayer(-1)">←</button>
+                <div class="detail-main">
+                    <img id="detail-img" src="">
+                    <div class="detail-text">
+                        <h1 id="detail-name"></h1>
+                        <p style="line-height: 1.8;"><span class="title-d">RANKING:</span><span class="value-d-rank"
+                                id="detail-rank"></span></p>
+                        <p style="line-height: 1.8;"> <span class="title-d">DATA DI NASCITA:</span><span class="value-d"
+                                id="detail-datanascita"></span></p>
+                        <p style="line-height: 1.8;"> <span class="title-d">PAESE DI ORIGINE:</span><span
+                                class="value-d" id="detail-origine"></span></p>
+                        <p style="line-height: 1.8;"> <span class="title-d">POSIZIONE DI GIOCO:</span><span
+                                class="value-d" id="detail-posizione"></span></p>
+                        <p style="line-height: 1.8;"> <span class="title-d">ALTEZZA:</span><span class="value-d"
+                                id="detail-altezza"></span></p>
+                        <p style="line-height: 1.8;"> <span class="title-d">COMPAGNO:</span><span class="value-d"
+                                id="detail-compagno"></span></p>
+                    </div>
+                </div>
+                <button class="nav-arrow" onclick="changePlayer(1)">→</button>
+            </div>
+
+        </section>
+
+
+        <section id="player-detail-donna" class="page"> <!--SEZIONE DETTAGLIO DONNE-->
+
+            <button onclick="showSection('top10')" class="back-btn">← Torna alla classifica</button>
+
+            <div class="detail-content">
+                <button class="nav-arrow" onclick="changePlayerDonna(-1)">←</button>
+                <div class="detail-main">
+                    <img id="detail-img-donna" src="">
+                    <div class="detail-text">
+                        <h1 id="detail-name-donna"></h1>
+                        <p style="line-height: 1.8;"><span class="title-d">RANKING:</span><span class="value-d-rank"
+                                id="detail-rank-donna"></span></p>
+                        <p style="line-height: 1.8;"> <span class="title-d">DATA DI NASCITA:</span><span class="value-d"
+                                id="detail-datanascita-donna"></span></p>
+                        <p style="line-height: 1.8;"> <span class="title-d">PAESE DI ORIGINE:</span><span
+                                class="value-d" id="detail-origine-donna"></span></p>
+                        <p style="line-height: 1.8;"> <span class="title-d">POSIZIONE DI GIOCO:</span><span
+                                class="value-d" id="detail-posizione-donna"></span></p>
+                        <p style="line-height: 1.8;"> <span class="title-d">ALTEZZA:</span><span class="value-d"
+                                id="detail-altezza-donna"></span></p>
+                        <p style="line-height: 1.8;"> <span class="title-d">COMPAGNA:</span><span class="value-d"
+                                id="detail-compagno-donna"></span></p>
+                    </div>
+                </div>
+                <button class="nav-arrow" onclick="changePlayerDonna(1)">→</button>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+
+        <div class="footer-content">
+            <img src="img/social.png" alt="social">
+        </div>
+
+    </footer>
+
+</body>
+
+
+
+
+
+
+
+</html>
